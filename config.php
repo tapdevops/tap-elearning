@@ -8,8 +8,8 @@ $CFG->dbtype    = 'pgsql';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'moodle';
-$CFG->dbuser    = 'postgres';
-$CFG->dbpass    = 'ekadinar';
+$CFG->dbuser    = 'admin';
+$CFG->dbpass    = 'tap123';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -17,8 +17,8 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = 'http://e-learning.tap.local';
-$CFG->dataroot  = 'C:\\xampp\\htdocs\\moodledata';
+$CFG->wwwroot   = 'http://149.129.247.226/E-Learning/tap-elearning';
+$CFG->dataroot  = '/var/www/html/E-Learning/tap-elearning-data';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
